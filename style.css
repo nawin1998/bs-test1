@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+:root{
+    --home-font: 50px;
+    --nav-bg:rgb(108, 22, 201);
+    --nav-hover:#ffffff;
+}
+#Contact input::placeholder{
+    text-align: center;
+}
+.solo2{
+    position: relative;
+    left: 3rem;
+}
+@media (max-width: 500px){
+    .title1{
+        position: relative;
+        right: 2rem;
+    }
+    .title2{
+        position: relative;
+        right: 1rem;
+    }
+    .title3{
+        position: relative;
+        right: 1rem;
+    }
+    .solo{
+        position: relative;
+        width: 40rem;
+        right: 13.5rem;
+    }
+    .solo2{
+        position: relative;
+        bottom: 5rem;
+        left: 1.5rem;
+    }
+    .solo3{
+        position: relative;
+        bottom: 4rem;
+    }
+}
+
+
+
+
+
+
+
+
